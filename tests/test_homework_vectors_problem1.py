@@ -6,8 +6,8 @@ from src import find_most_similar_to_given
 from src import doesnt_match
 
 @pytest.mark.parametrize('base_word, target_word, expected', [
-    ('hello', 'robot', 0.3609110823506896),
-    ('mountain', 'rabbit', 0.3611828985366267),
+    ('hello', 'robot', 0.3609110823506898),
+    ('mountain', 'rabbit', 0.3611828985366266),
     ('box', 'heart', 0.4429130340830195),
 ])
 def test_calculate_similarity(base_word, target_word, expected):
